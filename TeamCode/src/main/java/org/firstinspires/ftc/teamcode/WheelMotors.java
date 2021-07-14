@@ -1,9 +1,7 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-@Disabled
 public class WheelMotors {
 
     public final static double PI_4 = Math.PI / 4;
@@ -12,6 +10,8 @@ public class WheelMotors {
     public final DcMotor TR;
     public final DcMotor BL;
     public final DcMotor BR;
+
+
  
     public WheelMotors(HardwareMap.DeviceMapping<DcMotor> dcMotors) {
         TL = dcMotors.get("Tleft_drive");
